@@ -28,13 +28,20 @@
     position: relative;
     left: 0px;
     top: -31px;
+    background-image: url(../photos/1.svg);
+    background-repeat: no-repeat;
+    background-size: 36%;
+    background-position-x: 502px;
+    background-position-y: 270px;
+    height: 300px;
+    z-index: -100;
 }
 
 .main > div > div > div.main__wrapper--intro-container--block-2 {
     margin: 0 auto;
     position: relative;
     left: 0px;
-    top: -35px;
+    top: -71px;
 }
 
 .main > div > div > div.main__wrapper--intro-container--block-2 > a {
@@ -75,43 +82,66 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: 54px 57px;
+    padding: 17px 58px;
     color: white;
 }
 .main > div > div > div.main__wrapper--intro-container--block-3 > div > h2, p {
     margin: 0;
 }
-@media screen and (max-width: 845px) {
-    .main > div > div > div.main__wrapper--intro-container--block-2 {
-        top: -15px;
-    }
+@media screen and (max-width: 900px) {
     .main > div {
-        margin-top: 0px;
+        padding: 0 calc(50% - 391px);
+        margin-top: -44px;
     }
-    @media screen and (max-width: 765px) {
-        .main > div > div > div.main__wrapper--intro-container--block-3 > div {
-            padding: 12px 12px;
-        }
-        .main > div > div > div.main__wrapper--intro-container--block-3 > div > p {
-            padding: 0 calc(50% - 100px);
-        }
-        @media screen and (max-width: 600px) {
-            .main > div > div > div.main__wrapper--intro-container--block-2 {
-                top: 0px;
-            }
-            .main > div > div > div.main__wrapper--intro-container--block-3 {
-                display: flex;
-                flex-flow: column;
-                margin-top: 30px;
-            }
-            .main > div > div > div.main__wrapper--intro-container--block-1 > h1 {
-                font-weight: 700;
-                font-size: 40px;
-                line-height: 48px;
-            }
-        }
+    .main > div > div > div.main__wrapper--intro-container--block-2 {
+        margin: 0 auto;
+        position: relative;
+        left: 0px;
+        top: -21px;
     }
-    
+    .main > div > div > div.main__wrapper--intro-container--block-3 {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 0px;
+        top: 50px;
+    }
+    @media screen and (max-width: 800px) {
+        .main > div > div > div.main__wrapper--intro-container--block-1 > h1 {
+            font-size: 55px;
+            padding: 0 calc(50% - 280px);
+            line-height: 65px;
+            background-size: 30%;
+            background-position-x: 451px;
+            background-position-y: 202px;
+        }
+        @media screen and (max-width: 765px) {
+            .main > div > div > div.main__wrapper--intro-container--block-3 > div {
+                padding: 12px 12px;
+            }
+            .main > div > div > div.main__wrapper--intro-container--block-3 > div > p {
+                padding: 0 calc(50% - 100px);
+            }
+            @media screen and (max-width: 600px) {
+                .main > div > div > div.main__wrapper--intro-container--block-2 {
+                    top: -140px;
+                }
+                .main > div > div > div.main__wrapper--intro-container--block-3 {
+                    display: flex;
+                    flex-flow: column;
+                    margin-top: -133px;
+                }
+                .main > div > div > div.main__wrapper--intro-container--block-1 > h1 {
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 48px;
+                }
+            }
+        }
+        
+    }
 }
 
 /* footer */

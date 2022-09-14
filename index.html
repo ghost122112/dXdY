@@ -21,16 +21,28 @@
                 </div>
                 <div class="header__wrapper--block-2">
                     <nav class="header__wrapper--block-2--nav-bar">
-                        <a class="header__wrapper--block-2--nav-bar--link-1" href="other_pages/index2.html" title="1">Discover initiatives</a>
-                        <a class="header__wrapper--block-2--nav-bar--link-2" href="other_pages/index3.html" title="2">Funded grants</a>
-                        <a class="header__wrapper--block-2--nav-bar--link-3" href="other_pages/index4.html" title="3">Program expenses</a>
-                        <a class="header__wrapper--block-2--nav-bar--link-4" href="other_pages/index5.html" title="4">Blog</a>
-                        <a class="header__wrapper--block-2--nav-bar--link-5" href="other_pages/index6.html" title="5">FAQ</a>
+                        <a class="header__wrapper--block-2--nav-bar--link" href="other_pages/index2.html" title="1" onmousedown="navBarAnimation()">Discover initiatives</a>
+                        <a class="header__wrapper--block-2--nav-bar--link" href="other_pages/index3.html" title="2" onmousedown="navBarAnimation()">Funded grants</a>
+                        <a class="header__wrapper--block-2--nav-bar--link" href="other_pages/index4.html" title="3" onmousedown="navBarAnimation()">Program expenses</a>
+                        <a class="header__wrapper--block-2--nav-bar--link" href="other_pages/index5.html" title="4" onmousedown="navBarAnimation()">Blog</a>
+                        <a class="header__wrapper--block-2--nav-bar--link" href="other_pages/index6.html" title="5" onmousedown="navBarAnimation()">FAQ</a>
                         <button type="button" title="apply for grant">Apply for grant</button>
                     </nav>
                 </div>
             </div>
-            <div class="header__wrapper--mobile"></div>
+            <div class="header__wrapper--mobile">
+                <div id="navbar" class="header__wrapper--mobile--overlay">
+                    <a class="header__wrapper--mobile--overlay--closebtn" href="" title="hamburger" onclick="closeNavBar()">&times;</a>
+                    <div class="header__wrapper--mobile--overlay--content-list">
+                        <a class="header__wrapper--mobile--overlay--content-list--links" href="other_pages/index2.html">Discover initiatives</a>
+                        <a class="header__wrapper--mobile--overlay--content-list--links" href="other_pages/index3.html">Funded grants</a>
+                        <a class="header__wrapper--mobile--overlay--content-list--links" href="other_pages/index4.html">Program expenses</a>
+                        <a class="header__wrapper--mobile--overlay--content-list--links" href="other_pages/index5.html">Blog</a>
+                        <a class="header__wrapper--mobile--overlay--content-list--links" href="other_pages/index6.html">FAQ</a>
+                    </div>
+                </div>
+                <span class="header__wrapper--mobile--span" onclick="openNavBar()">&#9776;</span>
+            </div>
         </header>
         <main id="m" class="main">
             <div class="main__wrapper">
@@ -62,5 +74,6 @@
         <footer id="f" class="footer">
             <div class="footer__wrapper"></div>
         </footer>
+        <script src="scripts/main.js" defer="true"></script>
     </body>
 </html>

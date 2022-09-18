@@ -130,97 +130,97 @@
                     .header > div > div.header__wrapper--block-2 > nav {
                         margin-left: 1px;
                     }
-                }
-                @media screen and (max-width: 1000px) {
-                    .header > div.header__wrapper {
-                        display: none;
-                    }
-
-                    .header__wrapper--mobile {
-                        display: initial;
-                    }
-
-                    .header__wrapper--mobile > button {
-                        position: relative;
-                        left: -114px;
-                        top: -59px;
-                        float: right;
-                        width: 141px;
-                        height: 48px;
-                        background: #6966FF;
-                        border-radius: 7.29px;
-                        color: white;
-                        font-family: 'Circular Std';
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 14px;
-                        font-family: 'Poppins', sans-serif;
-                    }
-
-                    .header__wrapper--mobile > button:hover {
-                        filter: opacity(0.7);
-                        transition: 0.3s linear;
-                    }
-
-                    .header__wrapper--mobile > div > a {
-                        position: relative;
-                        left: 15px;
-                        top: 8px;
-                    }
-
-                    .header__wrapper--mobile > div > a:hover {
-                        filter: opacity(0.7);
-                    }
-
-                    .header__wrapper--mobile--overlay {
-                        height: 0%;
-                        width: 100%;
-                        position: fixed;
-                        z-index: 1;
-                        top: 0;
-                        left: 0;
-                        background-color: rgb(0,0,0);
-                        background-color: rgba(0,0,0, 0.9);
-                        overflow-y: hidden;
-                        transition: 0.5s;
-                    }
-                    
-                    .header__wrapper--mobile--overlay--content-list {
-                        position: relative;
-                        top: 25%;
-                        width: 100%;
-                        text-align: center;
-                        margin-top: 30px;
-                    }
-                    
-                    .header__wrapper--mobile--overlay a {
-                        padding: 8px;
-                        text-decoration: none;
-                        font-size: 36px;
-                        color: #818181;
-                        display: block;
-                        transition: 0.3s;
-                    }
-                    
-                    .header__wrapper--mobile--overlay a:hover, .header__wrapper--mobile--overlay a:focus {
-                        color: #f1f1f1;
-                    }
-                    
-                    .header__wrapper--mobile--overlay .header__wrapper--mobile--overlay--closebtn {
-                        position: absolute;
-                        top: 20px;
-                        right: 45px;
-                        font-size: 60px;
-                    }
-
-                    .header__wrapper--mobile--span {
-                        font-size: 50px;
-                        position: relative;
-                        left: 109px;
-                        top: -68px;
-                        cursor: pointer;
-                        color: white;
-                        float: right;
+                    @media screen and (max-width: 1000px) {
+                        .header > div.header__wrapper {
+                            display: none;
+                        }
+    
+                        .header__wrapper--mobile {
+                            display: initial;
+                        }
+    
+                        .header__wrapper--mobile > button {
+                            position: relative;
+                            left: -114px;
+                            top: -59px;
+                            float: right;
+                            width: 141px;
+                            height: 48px;
+                            background: #6966FF;
+                            border-radius: 7.29px;
+                            color: white;
+                            font-family: 'Circular Std';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            font-family: 'Poppins', sans-serif;
+                        }
+    
+                        .header__wrapper--mobile > button:hover {
+                            filter: opacity(0.7);
+                            transition: 0.3s linear;
+                        }
+    
+                        .header__wrapper--mobile > div > a {
+                            position: relative;
+                            left: 15px;
+                            top: 8px;
+                        }
+    
+                        .header__wrapper--mobile > div > a:hover {
+                            filter: opacity(0.7);
+                        }
+    
+                        .header__wrapper--mobile--overlay {
+                            height: 0%;
+                            width: 100%;
+                            position: fixed;
+                            z-index: 1;
+                            top: 0;
+                            left: 0;
+                            background-color: rgb(0,0,0);
+                            background-color: rgba(0,0,0, 0.9);
+                            overflow-y: hidden;
+                            transition: 0.5s;
+                        }
+                        
+                        .header__wrapper--mobile--overlay--content-list {
+                            position: relative;
+                            top: 25%;
+                            width: 100%;
+                            text-align: center;
+                            margin-top: 30px;
+                        }
+                        
+                        .header__wrapper--mobile--overlay a {
+                            padding: 8px;
+                            text-decoration: none;
+                            font-size: 36px;
+                            color: #818181;
+                            display: block;
+                            transition: 0.3s;
+                        }
+                        
+                        .header__wrapper--mobile--overlay a:hover, .header__wrapper--mobile--overlay a:focus {
+                            color: #f1f1f1;
+                        }
+                        
+                        .header__wrapper--mobile--overlay .header__wrapper--mobile--overlay--closebtn {
+                            position: absolute;
+                            top: 20px;
+                            right: 45px;
+                            font-size: 60px;
+                        }
+    
+                        .header__wrapper--mobile--span {
+                            font-size: 50px;
+                            position: relative;
+                            left: 109px;
+                            top: -68px;
+                            cursor: pointer;
+                            color: white;
+                            float: right;
+                        }
                     }
                     
                     @media screen and (max-height: 450px) {

@@ -60,6 +60,11 @@
     color: var(--solid-white);
 }
 
+.main > .main__wrapper > .main__wrapper--intro > .main__wrapper--intro--block-2 > button:hover {
+    filter: opacity(0.7);
+    transition: all 0.3s linear;
+}
+
 .main > .main__wrapper > .main__wrapper--intro > .main__wrapper--intro--block-2 > button.main__wrapper--intro--block-2--btn-1 {
     background: #393953;
     border-color: #393953;
@@ -117,13 +122,128 @@
     text-align: center;
 }
 
+.main > .main__wrapper > .main__wrapper--down-arrow {
+    margin: 0 auto;
+    min-height: 160px;
+    position: relative;
+    left: -2px;
+    top: 59px;
+}
 
+.main > .main__wrapper > .main__wrapper--projects-built-with-grants {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 269px;
+}
 
+.main > .main__wrapper > .main__wrapper--projects-built-with-grants > h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.022em;
+    text-align: center;
+    position: relative;
+    left: 2px;
+    top: -5px;
+}
 
+.main > .main__wrapper > .main__wrapper--projects-built-with-grants > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    position: relative;
+    left: -2px;
+    top: -41px;
+    padding: 0 calc(50% - 314px);
+}
 
+.main > .main__wrapper > .main__wrapper--projects-built-with-grants > a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    text-decoration: none;
+    color: #6966FF;
+    position: relative;
+    left: 0px;
+    top: -41px;
+}
 
+.main > .main__wrapper > .main__wrapper--projects-built-with-grants > a:hover {
+    color: red;
+    transition: all 0.3s linear;
+}
 
+.main > .main__wrapper > .main__wrapper--projects-built-with-grants > a > img {
+    position: relative;
+    left: 6px;
+    top: 6px;
+}
 
+.main > .main__wrapper > .main__wrapper--rewards-grants {
+    display: flex;
+    flex-flow: column;
+}
+
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block {
+    display: flex;
+    flex-flow: row;
+    overflow-x: visible;
+    overflow-y: hidden;
+    padding-left: 20px;
+}
+
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div {
+    display: flex;
+    flex-flow: column;
+    min-width: 392px;
+    min-height: 560px;
+    float: left;
+    padding: 0px;
+    background: #393953;
+    border-radius: 16px;
+    margin-right: 24px;
+}
+
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div:nth-child(odd) {
+    height: 480px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div > p:nth-child(odd) {
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A59EBA;
+}
+
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div > p:nth-child(even) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div:nth-child(odd) {
+    padding: 0 calc(50% - 165px);
+}
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div:nth-child(even) {
+    padding: 0 calc(50% - 165px);
+}
 
 
 

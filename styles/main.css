@@ -40,8 +40,6 @@
     align-items: center;
     min-height: 120px;
     grid-area: 'block-1 block-2';
-    -webkit-backdrop-filter: brightness(0.9);
-    backdrop-filter: brightness(0.9);
 }
 
 .header > div > div.header__wrapper--block-1 > a {

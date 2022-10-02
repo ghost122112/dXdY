@@ -195,8 +195,7 @@
 .main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block {
     display: flex;
     flex-flow: row;
-    overflow-x: visible;
-    overflow-y: hidden;
+    overflow-x: hidden;
     padding-left: 20px;
 }
 
@@ -238,22 +237,82 @@
     text-align: left;
 }
 
-.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div:nth-child(odd) {
-    padding: 0 calc(50% - 165px);
-}
-.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div:nth-child(even) {
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div {
     padding: 0 calc(50% - 165px);
 }
 
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div:nth-child(even) > .main__wrapper--rewards-grants--block--avatars-block--img-1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
 
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div:nth-child(even) > .main__wrapper--rewards-grants--block--avatars-block--img-2 {
+    position: relative;
+    left: -32px;
+    top: 2px;
+}
 
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div > div:nth-child(even) > .main__wrapper--rewards-grants--block--avatars-block--img-3 {
+    position: relative;
+    left: -64px;
+    top: 2px;
+}
 
+.main > .main__wrapper > .main__wrapper--whats-new {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 334px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../photos/sticks.svg);
+    background-repeat: no-repeat;
+    background-position-x: 826px;
+    background-position-y: 107px;
+}
 
+.main > .main__wrapper > .main__wrapper--whats-new > h3 {
+    position: relative;
+    left: 0px;
+    top: 55px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.022em;
+    text-align: center;
+}
 
+.main > .main__wrapper > .main__wrapper--whats-new > p.main__wrapper--whats-new--p, a.main__wrapper--whats-new--a {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.014em;
+    text-align: center;
+}
 
+.main > .main__wrapper > .main__wrapper--whats-new > p {
+    position: relative;
+    left: 0px;
+    top: 17px;
+    padding: 0 calc(50% - 357px);
+    color: #C8C7D8;
+}
 
+.main > .main__wrapper > .main__wrapper--whats-new > a {
+    position: relative;
+    left: -11px;
+    top: 23px;
+    color: #6966FF;
+    text-decoration: none;
+    background-image: url(../photos/fi_arrow-right2.svg);
+    background-repeat: no-repeat;
+    background-position-x: 236px;
+    background-position-y: 1px;
+    width: 283px;
+}
 
-
-
-
-
+.main > .main__wrapper > .main__wrapper--whats-new > a:hover {
+    color: red;
+    transition: all 0.3s linear;
+}

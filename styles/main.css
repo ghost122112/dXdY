@@ -2,6 +2,7 @@
 
 :root {
     --background-primary: #1C1C28;
+    --solid-white: #FFFFFF;
 }
 
 /* fonts */
@@ -27,6 +28,7 @@
     background-size: 0.6%;
     background-repeat: repeat;
     background-position: center;
+    color: var(--solid-white);
 }
 
 /* header */

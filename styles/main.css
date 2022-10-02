@@ -54,7 +54,7 @@
 }
 
 .header__wrapper--block-1--logo:hover {
-    filter: blur(100px);
+    filter: opacity(0.5);
     transition: 0.3s linear;
 }
 

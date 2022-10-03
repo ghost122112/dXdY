@@ -78,11 +78,20 @@
     position: relative;
     left: 16px;
     top: -2px;
+    /*
     padding: 0px 24px 0px 0px;
     background-image: url(../photos/fi_arrow-right.svg);
     background-repeat: no-repeat;
     background-position-x: 140px;
     background-position-y: 14px;
+    */
+}
+
+.main > .main__wrapper > .main__wrapper--intro > .main__wrapper--intro--block-2 > button.main__wrapper--intro--block-2--btn-2::after {
+    content: url(../photos/fi_arrow-right.svg);
+    position: relative;
+    left: 7px;
+    top: 3px;
 }
 
 .main > .main__wrapper > .main__wrapper--intro > .main__wrapper--intro--block-3 {
@@ -195,8 +204,12 @@
 .main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block {
     display: flex;
     flex-flow: row;
-    overflow-x: hidden;
+    overflow-x: auto;
     padding-left: 20px;
+}
+
+.main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block::-webkit-scrollbar {
+    width: 0;
 }
 
 .main > .main__wrapper > .main__wrapper--rewards-grants > .main__wrapper--rewards-grants--block > div {
@@ -305,11 +318,13 @@
     top: 23px;
     color: #6966FF;
     text-decoration: none;
-    background-image: url(../photos/fi_arrow-right2.svg);
-    background-repeat: no-repeat;
-    background-position-x: 236px;
-    background-position-y: 1px;
-    width: 283px;
+}
+
+.main > .main__wrapper > .main__wrapper--whats-new > a::after {
+    content: url(../photos/fi_arrow-right2.svg);
+    position: relative;
+    left: 10px;
+    top: 6px;
 }
 
 .main > .main__wrapper > .main__wrapper--whats-new > a:hover {

@@ -6,3 +6,4 @@ function closeNavBar() {
     document.getElementById("navbar").style.height = "0%";
 }
 
+

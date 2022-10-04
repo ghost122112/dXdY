@@ -260,13 +260,13 @@
     gap: 32px;
 }
 
-.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li > a {
+.footer > .footer__wrapper > .footer__wrapper--navigation > div.footer__wrapper--navigation--block-2 > ul > li > a {
     font-family: 'Space mono', monospace;
     text-decoration: none;
     color: #C8C7D8;
 }
 
-.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li > a:hover {
+.footer > .footer__wrapper > .footer__wrapper--navigation > div.footer__wrapper--navigation--block-2 > ul > li > a:hover {
     color: red;
     border-bottom: 1px solid red;
     filter: drop-shadow(3px 10px 5px black);
@@ -291,13 +291,13 @@
     top: 3px;
 }
 
-.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li.footer__wrapper--navigation--block-3--ul--li > img {
+.footer > .footer__wrapper > .footer__wrapper--navigation > div.footer__wrapper--navigation--block-3 > ul > li.footer__wrapper--navigation--block-3--ul--li > a.footer__wrapper--navigation--block-3--ul--li--a {
     position: relative;
     left: 1px;
     top: 3px;
 }
 
-.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li.footer__wrapper--navigation--block-3--ul--li > img:hover {
+.footer > .footer__wrapper > .footer__wrapper--navigation > div.footer__wrapper--navigation--block-3 > ul > li.footer__wrapper--navigation--block-3--ul--li > a.footer__wrapper--navigation--block-3--ul--li--a:hover {
     filter: opacity(0.5);
     transition: all 0.2s linear;
 }

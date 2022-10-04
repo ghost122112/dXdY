@@ -37,6 +37,26 @@
     color: var(--solid-white);
 }
 
+.body::-webkit-scrollbar {
+    background: #1C1C28;
+}
+
+.body::-webkit-scrollbar-button {
+    background: #818181;
+}
+
+.body::-webkit-scrollbar-button:active {
+    background: #6966FF;
+}
+
+.body::-webkit-scrollbar-thumb {
+    background: #818181;
+}
+
+.body::-webkit-scrollbar-thumb:active {
+    background: #6966FF;
+}
+
 /* header */
 
 .header {
@@ -114,6 +134,172 @@
 
 .header__wrapper--mobile {
     display: none;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--project-plan-in-mind {
+    display: flex;
+    flex-flow: column;
+    min-height: 300px;
+    position: relative;
+    left: 0px;
+    top: 272px;
+    padding: 0 calc(50% - 612px);
+}
+
+.footer > .footer__wrapper > .footer__wrapper--project-plan-in-mind > div {
+    height: 168px;
+    border-radius: 16px;
+    padding: 40px 0px 40px 0px;
+    background: linear-gradient(325.79deg, #6966FF 24.5%, rgba(105, 102, 255, 0.36) 117.69%);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.footer > .footer__wrapper > .footer__wrapper--project-plan-in-mind > div > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 24px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    top: -13px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--project-plan-in-mind > div > h4 {
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+    position: relative;
+    left: 2px;
+    top: -56px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--project-plan-in-mind > div > button {
+    border: 1px solid var(--solid-white);
+    border-radius: 7.29px;
+    background: var(--solid-white);
+    width: 169px;
+    height: 47px;
+    color: #6966FF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 43px;
+    position: relative;
+    left: 0px;
+    top: -67px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0px 11px 4px 14px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--project-plan-in-mind > div > button:hover {
+    filter: opacity(0.5);
+    transition: all 0.2s linear;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--project-plan-in-mind > div > button::after {
+    content: url(../photos/fi_arrow-right2.svg);
+    position: relative;
+    left: 5px;
+    top: 6px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    left: 0px;
+    top: 358px;
+    height: 100px;
+    padding: 0 calc(50% - 613px);
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div {
+    display: flex;
+    flex-flow: row;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div.footer__wrapper--navigation--block-1 {
+    width: 60px;
+}
+.footer > .footer__wrapper > .footer__wrapper--navigation > div.footer__wrapper--navigation--block-2 {
+    width: 1050px;
+}
+.footer > .footer__wrapper > .footer__wrapper--navigation > div.footer__wrapper--navigation--block-3 {
+    width: 120px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 0px;
+    top: 23px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > img:hover {
+    filter: opacity(0.5);
+    transition: all 0.1s linear;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    position: relative;
+    left: -6px;
+    top: 2px;
+    gap: 32px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li > a {
+    font-family: 'Space mono', monospace;
+    text-decoration: none;
+    color: #C8C7D8;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li > a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+    filter: drop-shadow(3px 10px 5px black);
+    transition: all 0.3s linear;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li.footer__wrapper--navigation--block-2--ol--li-last {
+    position: relative;
+    left: 8px;
+    top: 0px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li.footer__wrapper--navigation--block-2--ol--li > img {
+    position: relative;
+    left: 9px;
+    top: 3px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li.footer__wrapper--navigation--block-2--ol--li-last > img {
+    position: relative;
+    left: 9px;
+    top: 3px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li.footer__wrapper--navigation--block-3--ul--li > img {
+    position: relative;
+    left: 1px;
+    top: 3px;
+}
+
+.footer > .footer__wrapper > .footer__wrapper--navigation > div > ul > li.footer__wrapper--navigation--block-3--ul--li > img:hover {
+    filter: opacity(0.5);
+    transition: all 0.2s linear;
 }
 
 @media screen and (max-width: 1460px) {

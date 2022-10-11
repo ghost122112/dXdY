@@ -112,11 +112,9 @@
     transition: all 0.3s linear;
 }
 
-.header > div > div.header__wrapper--block-2 > nav > a:checked {
-    border-bottom: 1px solid red;
-}
-
 .header > div > div.header__wrapper--block-2 > nav > a:active {
+    background: none;
+    border: none;
     color: var(--solid-white);
 }
 

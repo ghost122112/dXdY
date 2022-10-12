@@ -101,14 +101,21 @@
 }
 
 .header > div > div.header__wrapper--block-2 > nav > a:hover {
+    /*
     color: red;
     border-bottom: 1px solid red;
     filter: drop-shadow(3px 10px 5px black);
+    */
+    border: 1px solid #4F4C64;
+    border-radius: 8px;
+    background: #4F4C64;
     transition: all 0.3s linear;
 }
 
-.header > div > div.header__wrapper--block-2 > nav > a:checked {
-    border-bottom: 1px solid red;
+.header > div > div.header__wrapper--block-2 > nav > a:active {
+    background: none;
+    border: none;
+    color: var(--solid-white);
 }
 
 .header > div > div.header__wrapper--block-2 > nav > button {
@@ -375,8 +382,11 @@
                             z-index: 1;
                             top: 0;
                             left: 0;
+                            /*
                             background-color: rgb(0,0,0);
                             background-color: rgba(0,0,0, 0.9);
+                            */
+                            background: var(--background-primary);
                             overflow-y: hidden;
                             transition: 0.5s;
                         }
